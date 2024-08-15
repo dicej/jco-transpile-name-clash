@@ -1,0 +1,10 @@
+package test:test;
+
+world test {
+  import wasi:io/poll@0.2.0;
+  import wasi:io/poll@0.2.1;  
+  import wasi:clocks/monotonic-clock@0.2.0;
+  import wasi:clocks/monotonic-clock@0.2.1;
+  
+  export test: func();
+}
